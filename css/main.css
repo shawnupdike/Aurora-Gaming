@@ -1,0 +1,238 @@
+h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  text-align: center;
+  color: white; }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: black;
+  text-align: center;
+  line-height: 2rem;
+  color: white;
+  font-size: 150px; }
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: black;
+  text-align: center;
+  color: white;
+  font-size: 100px; }
+
+h4 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: black;
+  text-align: center;
+  color: white;
+  font-size: 110px;
+  margin-top: -0.1rem;
+  color: #F9A91A; }
+
+h5 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 80px;
+  padding-top: 1rem;
+  margin-bottom: -0.1rem; }
+
+h6 {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: -0.1rem;
+  padding-top: 1.5rem; }
+
+p {
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  font-size: 25px;
+  font-weight: 100; }
+
+.product3 h5, h6 {
+  text-align: right; }
+
+.product2 h5, p {
+  text-align: left; }
+
+.opener h3 {
+  font-size: 250px;
+  margin-top: -7rem;
+  margin-bottom: -2rem;
+  padding-left: 1rem;
+  color: #F9A91A; }
+
+.custom1 img {
+  width: 50%;
+  height: 25%; }
+
+.custom2 img {
+  width: 78%;
+  height: 25%; }
+
+body {
+  background-color: #0A0B0C; }
+
+header {
+  position: fixed;
+  background-color: #1F1E1A;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0; }
+
+footer {
+  margin-top: -27rem;
+  margin-bottom: -50rem;
+  padding: 0.5rem;
+  padding-left: 4rem;
+  background-color: #1F1E1A;
+  width: 100%;
+  z-index: 998; }
+
+@media screen and (min-width: 40em) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9, 1fr); }
+
+  .logo {
+    padding-left: 27.5rem;
+    padding-top: 1rem;
+    margin-bottom: -4rem;
+    width: 3.3%; }
+
+  .logo2 {
+    padding-left: 54rem;
+    padding-bottom: 1rem;
+    margin-top: -3.9rem;
+    width: 3.3%; }
+
+  .dots2 {
+    padding-top: 49rem;
+    padding-left: 1rem;
+    grid-column: 1 / span 5;
+    grid-row: 1 / span 2;
+    z-index: 2; }
+
+  .dots {
+    margin-right: -7rem;
+    padding-top: 18rem;
+    grid-column: 7 / span 5;
+    grid-row: 1 / span 2;
+    z-index: 2; }
+
+  .opener {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    grid-column: 6 / span 1;
+    grid-row: 1; }
+
+  .grabber {
+    padding-left: 5rem;
+    padding-top: 10rem;
+    grid-column: 5 / span 3;
+    grid-row: 2;
+    z-index: 2; }
+
+  .fire-mouse {
+    grid-column: 1 / span 12;
+    grid-row: 2; }
+
+  .fire-mouse img {
+    width: 100%; }
+
+  .trans2 {
+    margin-top: -9rem;
+    grid-column: 1 / span 12;
+    grid-row: 2;
+    z-index: 1; }
+
+  .trans {
+    margin-top: -5rem;
+    grid-column: 1 / span 12;
+    grid-row: 3;
+    z-index: 898; }
+
+  .product {
+    padding-top: 19rem;
+    margin-top: -20rem;
+    grid-column: 1 / span 12;
+    grid-row: 3;
+    z-index: 899; }
+
+  .product2 {
+    padding-left: 5rem;
+    padding-right: 10rem;
+    grid-column: 1 / span 6;
+    grid-row: 3;
+    z-index: 900; }
+
+  .mouse {
+    padding-top: 5rem;
+    padding-left: 7rem;
+    grid-column: 6 / span 6;
+    grid-row: 3; }
+
+  .hdots {
+    margin-top: -23rem;
+    margin-left: -2rem;
+    grid-column: 1 / span 5;
+    grid-row: 4; }
+
+  .product3 {
+    margin-top: -28rem;
+    text-align: left;
+    padding-left: 13rem;
+    padding-right: 5rem;
+    grid-column: 6 / span 6;
+    grid-row: 4; }
+
+  .hdots2 {
+    margin-top: -79.5rem;
+    grid-column: 1 / span 6;
+    grid-row: 6; }
+
+  .product4 {
+    margin-top: -56rem;
+    padding-left: 5rem;
+    padding-right: 10rem;
+    grid-column: 1 / span 6;
+    grid-row: 5; }
+
+  .product5 {
+    margin-top: -87rem;
+    text-align: right;
+    padding-left: 13rem;
+    padding-right: 5rem;
+    grid-column: 6 / span 6;
+    grid-row: 6; }
+
+  .custom {
+    margin-top: -95rem;
+    grid-column: 1 / span 12;
+    grid-row: 7; }
+
+  .custom1 {
+    margin-top: -70rem;
+    grid-column: 2 / span 5;
+    grid-row: 7; }
+
+  .custom2 {
+    margin-top: -70rem;
+    margin-left: -18rem;
+    grid-column: 8 / span 5;
+    grid-row: 7; }
+
+  .story {
+    margin-top: -95rem;
+    grid-column: 2 / span 6;
+    grid-row: 8; }
+
+  .FAQS {
+    margin-top: -85rem;
+    margin-bottom: -40rem;
+    grid-column: 1 / span 12;
+    grid-row: 9; } }
+
+/*# sourceMappingURL=main.css.map */
